@@ -6,7 +6,7 @@ myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 user = myclient["user"]
 
 # creation des collections
-comptes = user["comptes"] #les compte
+comptes = user["comptes"] #les comptes
 
 offres = user["offres"] #les offres
 
