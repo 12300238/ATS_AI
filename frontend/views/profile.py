@@ -1,10 +1,21 @@
 import streamlit as st
 from services import get_user
+from auth import utilisateur_courant
 
 
 def show_profile():
 
     user = get_user()
+
+    # Pré-remplissage avec l'identité du compte connecté si disponible
+    compte = utilisateur_courant()
+    if compte:
+        user = {
+            **user,
+            "nom": compte["nom"],
+            "prenom": compte["prenom"],
+            "email": compte["email"],
+        }
 
     st.title("👤 Mon Profil")
 
