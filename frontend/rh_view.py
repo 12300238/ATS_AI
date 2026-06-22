@@ -528,8 +528,8 @@ def analytics_view(candidates: pd.DataFrame, jobs: pd.DataFrame) -> None:
 
 def rh_account_view() -> None:
     header(
-        "Creation compte RH",
-        "Ajouter un recruteur ou administrateur autorise a gerer les offres et candidatures.",
+        "Creation compte",
+        "Créer un compte recruteur ou administrateur.",
     )
 
     with st.form("rh-account-form"):
@@ -537,11 +537,10 @@ def rh_account_view() -> None:
         with col1:
             first_name = st.text_input("Prenom")
             last_name = st.text_input("Nom")
-            email = st.text_input("Email professionnel")
+            email = st.text_input("Email")
         with col2:
             role = st.selectbox("Role", ["RH", "Administrateur"])
             password = st.text_input("Mot de passe", type="password")
-            active = st.toggle("Compte actif", value=True)
 
         submitted = st.form_submit_button("Creer le compte", type="primary")
 
