@@ -1,5 +1,11 @@
-admin_users.py = Page d'administration — Gestion des comptes utilisateurs
+# Frontend Streamlit
 
-Lancement :
-    pip install streamlit
-    streamlit run admin_users.py
+Interface RH de l'ATS AI.
+
+## Lancer la vue RH
+
+```bash
+streamlit run frontend/rh_app.py
+```
+
+L'application fonctionne en mode demo si le backend Flask n'est pas lance.
