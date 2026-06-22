@@ -528,7 +528,7 @@ def analytics_view(candidates: pd.DataFrame, jobs: pd.DataFrame) -> None:
 
 def rh_account_view() -> None:
     header(
-        "Creation compte RH",
+        "Creation compte",
         "Ajouter un recruteur ou administrateur autorise a gerer les offres et candidatures.",
     )
 
