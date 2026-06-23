@@ -19,6 +19,9 @@ from views.rh.common import api_get
 # Espace admin
 from views.admin import comptes as admin_comptes
 
+# Vues partagées (communes aux trois rôles)
+from views.shared import messagerie as shared_messagerie
+
 
 st.set_page_config(page_title="ATS Intelligent", page_icon="📄", layout="wide")
 
@@ -46,6 +49,7 @@ ESPACES = {
         "👤 Mon Profil": cand_profile.show,
         "💼 Offres": cand_jobs.show,
         "🤖 Assistant IA": cand_assistant.show,
+        "💬 Messagerie": shared_messagerie.show,
     },
     "RH": {
         "📊 Dashboard RH": rh_dashboard.show,
@@ -53,9 +57,11 @@ ESPACES = {
         "📁 Gestion des offres": rh_offres.show,
         "📈 Analytique / Rapports": rh_analytique.show,
         "➕ Création de compte": rh_compte.show,
+        "💬 Messagerie": shared_messagerie.show,
     },
     "Admin": {
         "🛠️ Gestion des comptes": admin_comptes.show,
+        "💬 Messagerie": shared_messagerie.show,
     },
 }
 
