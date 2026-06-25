@@ -1,0 +1,281 @@
+{
+  "title": "Ingénieur Logiciel IA",
+  "company": "AI Innovations",
+  "location": "Lyon, France",
+  "contract_type": ["CDI", "Alternance"],
+  "description": "Vous rejoindrez une équipe dédiée au développement de solutions d'intelligence artificielle destinées à l'automatisation des processus métier et à l'analyse avancée des données.",
+  "missions": [
+    "Concevoir des applications basées sur l'IA",
+    "Développer des modèles de Machine Learning",
+    "Intégrer des LLM dans des applications métiers",
+    "Déployer des services IA en production",
+    "Optimiser les performances des modèles",
+    "Collaborer avec les équipes Data et Produit"
+  ],
+  "required_skills": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-Learn",
+    "FastAPI",
+    "Flask",
+    "Git",
+    "Docker",
+    "APIs REST",
+    "SQL",
+    "MongoDB",
+    "LangChain",
+    "RAG",
+    "LLM",
+    "Prompt Engineering"
+  ],
+  "preferred_skills": [
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "MLOps",
+    "CI/CD"
+  ],
+  "education": "Bac+5 Informatique, Intelligence Artificielle ou équivalent",
+  "experience": {
+    "CDI": 2,
+    "Alternance": 0
+  },
+  "certifications": [
+    "AWS Machine Learning",
+    "Azure AI Engineer"
+  ],
+  "soft_skills": [
+    "Créativité",
+    "Résolution de problèmes",
+    "Communication",
+    "Esprit d'équipe",
+    "Autonomie"
+  ],
+  "keywords": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "TensorFlow",
+    "PyTorch",
+    "LLM",
+    "LangChain",
+    "RAG",
+    "FastAPI",
+    "Flask",
+    "Docker",
+    "MongoDB",
+    "AWS",
+    "Azure"
+  ]
+}
+{
+  "required_skills": [
+    {"name": "Linux", "weight": 10},
+    {"name": "SIEM", "weight": 10},
+    {"name": "Gestion des vulnérabilités", "weight": 10},
+    {"name": "Pentest", "weight": 10},
+    {"name": "Python", "weight": 8},
+    {"name": "TCP/IP", "weight": 8},
+    {"name": "Firewall", "weight": 8},
+    {"name": "IDS", "weight": 7},
+    {"name": "IPS", "weight": 7},
+    {"name": "Analyse de logs", "weight": 7},
+    {"name": "OWASP Top 10", "weight": 6},
+    {"name": "VPN", "weight": 5},
+    {"name": "Bash", "weight": 5},
+    {"name": "Wireshark", "weight": 4},
+    {"name": "Nmap", "weight": 4},
+    {"name": "Windows Server", "weight": 3}
+  ]
+}
+
+{
+  "title": "Data Engineer / IA Engineer",
+  "company": "DataVision Analytics",
+  "location": "Toulouse, France",
+  "contract_type": ["CDI", "Alternance"],
+  "description": "Nous recherchons un profil hybride capable de concevoir des pipelines de données robustes tout en participant au développement et au déploiement de modèles d'intelligence artificielle.",
+  "missions": [
+    "Concevoir des pipelines ETL",
+    "Construire des Data Lakes",
+    "Développer des architectures Big Data",
+    "Préparer les données pour l'entraînement des modèles",
+    "Déployer des modèles IA",
+    "Superviser les flux de données",
+    "Garantir la qualité et la gouvernance des données"
+  ],
+  "required_skills": [
+    "Python",
+    "SQL",
+    "MongoDB",
+    "PostgreSQL",
+    "ETL",
+    "Apache Airflow",
+    "Apache Spark",
+    "Hadoop",
+    "Kafka",
+    "Data Lake",
+    "Data Warehouse",
+    "Docker",
+    "Kubernetes",
+    "Machine Learning",
+    "MLOps",
+    "Git"
+  ],
+  "preferred_skills": [
+    "Databricks",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Snowflake"
+  ],
+  "education": "Bac+5 Informatique, Data Engineering ou Intelligence Artificielle",
+  "experience": {
+    "CDI": 3,
+    "Alternance": 0
+  },
+  "certifications": [
+    "AWS Data Engineer",
+    "Databricks Certified Data Engineer"
+  ],
+  "soft_skills": [
+    "Organisation",
+    "Esprit analytique",
+    "Communication",
+    "Autonomie",
+    "Travail en équipe"
+  ],
+  "keywords": [
+    "Data Engineering",
+    "ETL",
+    "Spark",
+    "Kafka",
+    "Airflow",
+    "SQL",
+    "Python",
+    "Data Lake",
+    "Data Warehouse",
+    "Machine Learning",
+    "MLOps",
+    "Kubernetes",
+    "Docker"
+  ]
+}
+{
+  "required_skills": [
+    {"name": "Python", "weight": 10},
+    {"name": "SQL", "weight": 10},
+    {"name": "Apache Spark", "weight": 10},
+    {"name": "ETL", "weight": 10},
+    {"name": "Apache Airflow", "weight": 9},
+    {"name": "Kafka", "weight": 9},
+    {"name": "Data Lake", "weight": 8},
+    {"name": "Machine Learning", "weight": 8},
+    {"name": "MLOps", "weight": 8},
+    {"name": "Docker", "weight": 6},
+    {"name": "Kubernetes", "weight": 6},
+    {"name": "PostgreSQL", "weight": 5},
+    {"name": "MongoDB", "weight": 5},
+    {"name": "Data Warehouse", "weight": 5},
+    {"name": "Git", "weight": 3},
+    {"name": "Hadoop", "weight": 3}
+  ]
+}
+
+{
+  "title": "Ingénieur Logiciel IA",
+  "company": "AI Innovations",
+  "location": "Lyon, France",
+  "contract_type": ["CDI", "Alternance"],
+  "description": "Vous rejoindrez une équipe dédiée au développement de solutions d'intelligence artificielle destinées à l'automatisation des processus métier et à l'analyse avancée des données.",
+  "missions": [
+    "Concevoir des applications basées sur l'IA",
+    "Développer des modèles de Machine Learning",
+    "Intégrer des LLM dans des applications métiers",
+    "Déployer des services IA en production",
+    "Optimiser les performances des modèles",
+    "Collaborer avec les équipes Data et Produit"
+  ],
+  "required_skills": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-Learn",
+    "FastAPI",
+    "Flask",
+    "Git",
+    "Docker",
+    "APIs REST",
+    "SQL",
+    "MongoDB",
+    "LangChain",
+    "RAG",
+    "LLM",
+    "Prompt Engineering"
+  ],
+  "preferred_skills": [
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "MLOps",
+    "CI/CD"
+  ],
+  "education": "Bac+5 Informatique, Intelligence Artificielle ou équivalent",
+  "experience": {
+    "CDI": 2,
+    "Alternance": 0
+  },
+  "certifications": [
+    "AWS Machine Learning",
+    "Azure AI Engineer"
+  ],
+  "soft_skills": [
+    "Créativité",
+    "Résolution de problèmes",
+    "Communication",
+    "Esprit d'équipe",
+    "Autonomie"
+  ],
+  "keywords": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "TensorFlow",
+    "PyTorch",
+    "LLM",
+    "LangChain",
+    "RAG",
+    "FastAPI",
+    "Flask",
+    "Docker",
+    "MongoDB",
+    "AWS",
+    "Azure"
+  ]
+}
+{
+  "required_skills": [
+    {"name": "Python", "weight": 10},
+    {"name": "Machine Learning", "weight": 10},
+    {"name": "Deep Learning", "weight": 10},
+    {"name": "LLM", "weight": 10},
+    {"name": "PyTorch", "weight": 9},
+    {"name": "TensorFlow", "weight": 8},
+    {"name": "RAG", "weight": 8},
+    {"name": "LangChain", "weight": 8},
+    {"name": "Scikit-Learn", "weight": 7},
+    {"name": "FastAPI", "weight": 7},
+    {"name": "Docker", "weight": 6},
+    {"name": "Prompt Engineering", "weight": 6},
+    {"name": "APIs REST", "weight": 5},
+    {"name": "MongoDB", "weight": 4},
+    {"name": "SQL", "weight": 4},
+    {"name": "Git", "weight": 3},
+    {"name": "Flask", "weight": 3}
+  ]
+}	
