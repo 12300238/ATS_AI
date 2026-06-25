@@ -19,11 +19,12 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-import bcrypt
+import bcrypt  # noqa: F401  (gardé pour compat ; le hachage passe par security.hash_password)
 import gridfs
 from pymongo import MongoClient
 
 from config import Config
+from security import hash_password
 
 BASE_DIR = Path(__file__).parent
 MOCK_DIR = BASE_DIR / "mock_data"
@@ -32,10 +33,6 @@ MOCK_DIR = BASE_DIR / "mock_data"
 def load_json(filename: str) -> list[dict]:
     with open(MOCK_DIR / filename, encoding="utf-8") as f:
         return json.load(f)
-
-
-def hash_password(plain: str) -> str:
-    return bcrypt.hashpw(plain.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
 
 
 def seed_users(db, reset: bool) -> dict[str, object]:

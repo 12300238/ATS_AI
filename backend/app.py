@@ -14,6 +14,7 @@ from extensions import cors, init_mongo, jwt, ping_mongo
 from routes.auth import auth_bp
 from routes.offers import offers_bp
 from routes.users import users_bp
+from security import register_jwt_handlers
 
 
 def create_app() -> Flask:
@@ -23,6 +24,7 @@ def create_app() -> Flask:
     # Extensions
     init_mongo(app)
     jwt.init_app(app)
+    register_jwt_handlers(jwt)  # blocklist + réponses JSON 401/403/expiré/révoqué
     cors.init_app(app, origins=app.config["CORS_ORIGINS"], supports_credentials=True)
 
     # Blueprints («component» du package BACKEND)

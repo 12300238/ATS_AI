@@ -4,11 +4,37 @@ Squelette du backend, en miroir du diagramme de composants : packages
 `API Auth` / `API Utilisateurs` / `API Offres`, puis les services
 `Gestion Candidatures`, `RAG Pipeline`, `ATS IA Engine`, `Chatbot LLM`.
 
-À ce stade (Phase 0 de la roadmap), **les routes sont des squelettes**
-(elles renvoient `501 Not Implemented`) : l'objectif de cette étape est de
-poser la structure, la configuration, et des données de test réalistes.
-L'implémentation réelle vient phase par phase (voir les commentaires `TODO`
-dans chaque fichier de `routes/` et `services/`).
+À ce stade (Phase 1 terminée), **l'authentification est implémentée**
+(`/auth/register`, `/auth/login`, `/auth/logout`, `/auth/me`), avec hachage
+bcrypt, JWT porteur des claims `user_id`+`role`, et un décorateur
+`@role_required(...)` déjà appliqué aux routes des Phases 2/3 (qui exigent
+donc un token + le bon rôle, puis renvoient `501` en attendant leur logique
+métier). Voir les `TODO` dans `routes/` et `services/` pour la suite.
+
+### Endpoints d'authentification (Phase 1)
+
+| Méthode | Route            | Accès            | Description                                  |
+|---------|------------------|------------------|----------------------------------------------|
+| POST    | `/auth/register` | public           | Inscription (rôle forcé à `Utilisateur`)     |
+| POST    | `/auth/login`    | public           | Connexion → renvoie `access_token` + `user`  |
+| POST    | `/auth/logout`   | token requis     | Révoque le token courant (blocklist)         |
+| GET     | `/auth/me`       | token requis     | Renvoie le compte connecté                   |
+
+Le token est un JWT à passer dans l'en-tête `Authorization: Bearer <token>`.
+Il contient l'identité (`user_id`) et le rôle. Pour protéger une route :
+
+```python
+from security import role_required
+
+@offers_bp.post("")
+@role_required("RH", "Admin")     # 401 si pas de token, 403 si mauvais rôle
+def create_offer(): ...
+```
+
+Note : `logout` est un **vrai** logout côté serveur (le `jti` du token est
+mis dans la collection `token_blocklist`, vérifiée à chaque requête). Si vous
+préférez vous reposer uniquement sur l'expiration côté client, vous pouvez
+ignorer cet endpoint — mais la révocation immédiate est plus sûre.
 
 ## 1. Installation
 
