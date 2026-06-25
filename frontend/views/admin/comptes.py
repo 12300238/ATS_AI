@@ -99,7 +99,7 @@ def creer_compte(prenom, nom, email, mdp, role):
 # ---------------------------------------------------------------------------
 # Interface
 # ---------------------------------------------------------------------------
-def show_admin():
+def show():
     # États propres à la page admin
     st.session_state.setdefault("confirm_delete", None)
     st.session_state.setdefault("afficher_formulaire_creation", False)
