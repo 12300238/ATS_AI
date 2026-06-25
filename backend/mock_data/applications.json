@@ -1,0 +1,32 @@
+[
+  {
+    "_mock_id": "app_ivan",
+    "_source_note": "Score 'ats_score_placeholder' inventé à titre d'exemple : le vrai calcul viendra de l'ATS IA Engine (Phase 7). Ne pas s'y fier.",
+    "user_mock_id": "cand_ivan",
+    "offer_mock_id": "OFF-001",
+    "cv_filename": "ivan_veljovic_bulatovic.pdf",
+    "ats_score_placeholder": 78,
+    "status": "A analyser",
+    "notes_rh": ""
+  },
+  {
+    "_mock_id": "app_ryan",
+    "_source_note": "Score 'ats_score_placeholder' inventé à titre d'exemple : le vrai calcul viendra de l'ATS IA Engine (Phase 7). Ne pas s'y fier.",
+    "user_mock_id": "cand_ryan",
+    "offer_mock_id": "OFF-002",
+    "cv_filename": "ryan_maria_paul.pdf",
+    "ats_score_placeholder": 85,
+    "status": "Entretien",
+    "notes_rh": "Profil Data/IA solide, expérience PySpark pertinente pour le poste."
+  },
+  {
+    "_mock_id": "app_mathew",
+    "_source_note": "Score 'ats_score_placeholder' inventé à titre d'exemple : le vrai calcul viendra de l'ATS IA Engine (Phase 7). Ne pas s'y fier.",
+    "user_mock_id": "cand_mathew",
+    "offer_mock_id": "OFF-003",
+    "cv_filename": "mathew_prades.pdf",
+    "ats_score_placeholder": 45,
+    "status": "A analyser",
+    "notes_rh": ""
+  }
+]
