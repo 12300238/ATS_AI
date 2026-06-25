@@ -1,0 +1,72 @@
+[
+  {
+    "_mock_id": "admin",
+    "prenom": "Alice",
+    "nom": "Durand",
+    "email": "admin@ats.fr",
+    "mdp": "admin123",
+    "role": "Admin"
+  },
+  {
+    "_mock_id": "rh1",
+    "prenom": "Sophie",
+    "nom": "Bernard",
+    "email": "rh@ats.fr",
+    "mdp": "rh123",
+    "role": "RH"
+  },
+  {
+    "_mock_id": "rh2",
+    "prenom": "Farid",
+    "nom": "Moreau",
+    "email": "farid.moreau@ats.fr",
+    "mdp": "farid123",
+    "role": "RH"
+  },
+  {
+    "_mock_id": "user_demo",
+    "prenom": "Thomas",
+    "nom": "Dupont",
+    "email": "user@ats.fr",
+    "mdp": "user123",
+    "role": "Utilisateur",
+    "telephone": "0600000000",
+    "linkedin": "linkedin.com/in/thomas",
+    "github": "github.com/thomas"
+  },
+  {
+    "_mock_id": "cand_ivan",
+    "_source_note": "Identité et contact extraits du CV PDF fourni (CV_2026-06-25_Ivan_Veljovic_Bulatovic.pdf). Mot de passe inventé.",
+    "prenom": "Ivan",
+    "nom": "Veljovic Bulatovic",
+    "email": "veljovicbulatovicivan@gmail.com",
+    "mdp": "ivan12345",
+    "role": "Utilisateur",
+    "telephone": "0768587953",
+    "location": "La Celle-Saint-Cloud (78170)"
+  },
+  {
+    "_mock_id": "cand_ryan",
+    "_source_note": "Identité et contact extraits du CV PDF fourni (Ryan_MARIA_PAUL_CV.pdf). Mot de passe inventé.",
+    "prenom": "Ryan",
+    "nom": "Maria Paul",
+    "email": "ryanmariapaul7@gmail.com",
+    "mdp": "ryan12345",
+    "role": "Utilisateur",
+    "telephone": "0634561253",
+    "location": "Tremblay-en-France",
+    "linkedin": "linkedin.com/in/ryan-maria-paul"
+  },
+  {
+    "_mock_id": "cand_mathew",
+    "_source_note": "Identité et contact extraits du CV PDF fourni (PRADES_Mathew_Alternant_CV.pdf). Mot de passe inventé.",
+    "prenom": "Mathew",
+    "nom": "Prades",
+    "email": "prades.mathew@gmail.com",
+    "mdp": "mathew12345",
+    "role": "Utilisateur",
+    "telephone": "0760077741",
+    "location": "Presles (95590)",
+    "github": "github.com/12300238"
+  }
+]
